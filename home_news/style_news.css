@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #35374B;
+    color: white;
+}
+
+.heading {
+    font-size: 25px;
+    margin: 10px 0;
+}
+
+.rss_src {
+    width: 100%;
+    text-align: center;
+    margin: 30px 0;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.item {
+    width: 320px;
+    float: left;
+    height: 500px;
+    padding: 10px;
+    margin: 12px 10px;
+    overflow: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #78A083;
+}
+
+.desc img {
+    width: 100%;
+}
