@@ -40,3 +40,23 @@ body {
 .desc img {
     width: 100%;
 }
+
+@media only screen and (max-width: 1200px) and (min-width: 760px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 760px) and (min-width: 200px) {
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}

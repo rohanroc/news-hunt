@@ -139,6 +139,13 @@ body {
         width: 100%;
         flex-direction: column;
     }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 @media only screen and (max-width: 760px) and (min-width: 200px) {
@@ -157,5 +164,12 @@ body {
     .box {
         width: 100%;
         flex-direction: column;
+    }
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 }
